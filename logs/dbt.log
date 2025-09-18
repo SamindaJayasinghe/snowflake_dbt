@@ -1,0 +1,30 @@
+[0m22:03:22.250445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E836E98590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E834AC1D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E837F47ED0>]}
+
+
+============================== 22:03:22.276895 | 56068ade-3ea3-4e3a-85da-b3e08258cafc ==============================
+[0m22:03:22.276895 [info ] [MainThread]: Running with dbt=1.10.11
+[0m22:03:22.279000 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init sjSnowDbt', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m22:03:22.313691 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\HP\.dbt
+[0m22:03:22.316425 [debug] [MainThread]: Starter project path: C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m22:03:22.343757 [info ] [MainThread]: 
+Your new dbt project "sjSnowDbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:03:22.344552 [info ] [MainThread]: Setting up your profile.
+[0m22:10:22.216437 [info ] [MainThread]: Profile sjSnowDbt written to C:\Users\HP\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:10:22.219447 [debug] [MainThread]: Command `dbt init` succeeded at 22:10:22.219152 after 420.23 seconds
+[0m22:10:22.220156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E852320640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E836CB4050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E85226EBE0>]}
+[0m22:10:22.220997 [debug] [MainThread]: Flushing usage events
+[0m22:10:24.009362 [debug] [MainThread]: An error was encountered while trying to flush usage events

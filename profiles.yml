@@ -1,0 +1,11 @@
+snowflake_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: SYSADMIN
+      warehouse: COMPUTE_WH
+      database: DWH_DEV
+      schema: SAMINDA_DEV
+      account: ' '
+      user: ' '

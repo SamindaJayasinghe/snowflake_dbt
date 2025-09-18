@@ -46,3 +46,63 @@
 [0m05:14:20.509970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203B6544C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203B515A7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203B64EF110>]}
 [0m05:14:20.510233 [debug] [MainThread]: Flushing usage events
 [0m05:14:21.842145 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:18:48.805733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAAF90050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AA8C61D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAC057D90>]}
+
+
+============================== 05:18:48.811235 | 0ad4f93a-ecc9-44c2-9477-356778d26431 ==============================
+[0m05:18:48.811235 [info ] [MainThread]: Running with dbt=1.10.11
+[0m05:18:48.812020 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'log_path': 'F:\\snowflake_dbt\\logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\HP\\.dbt'}
+[0m05:18:48.908944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0ad4f93a-ecc9-44c2-9477-356778d26431', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAB37FCE0>]}
+[0m05:18:48.971300 [debug] [MainThread]: Set downloads directory='C:\Users\HP\AppData\Local\Temp\dbt-downloads-7zstz7ws'
+[0m05:18:48.971641 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m05:18:49.629882 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m05:18:49.632940 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m05:18:50.224298 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m05:18:50.229255 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m05:18:51.362797 [info ] [MainThread]: Installed from version 1.3.1
+[0m05:18:51.363235 [info ] [MainThread]: Up to date!
+[0m05:18:51.363602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '0ad4f93a-ecc9-44c2-9477-356778d26431', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAC0CD480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAC0CDE10>]}
+[0m05:18:51.364642 [debug] [MainThread]: Command `dbt deps` succeeded at 05:18:51.364546 after 2.71 seconds
+[0m05:18:51.364877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAD294C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AABEEA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AAD22C5F0>]}
+[0m05:18:51.365107 [debug] [MainThread]: Flushing usage events
+[0m05:18:52.849763 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:20:17.916629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023149430050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231470FDD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314A503D90>]}
+
+
+============================== 05:20:17.920237 | 87ec70de-9daa-4705-8367-6b8e2776d1fc ==============================
+[0m05:20:17.920237 [info ] [MainThread]: Running with dbt=1.10.11
+[0m05:20:17.920753 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'F:\\snowflake_dbt\\logs', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m05:20:18.019150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '87ec70de-9daa-4705-8367-6b8e2776d1fc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023149823CE0>]}
+[0m05:20:18.039221 [debug] [MainThread]: Set downloads directory='C:\Users\HP\AppData\Local\Temp\dbt-downloads-je2cekzf'
+[0m05:20:18.039653 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m05:20:18.743661 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m05:20:18.746437 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/netsuite.json
+[0m05:20:19.764256 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/netsuite.json 200
+[0m05:20:19.774620 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+[0m05:20:20.395456 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+[0m05:20:20.401040 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+[0m05:20:21.050009 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+[0m05:20:21.053803 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m05:20:21.407599 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m05:20:21.423171 [info ] [MainThread]: Updating lock file in file path: F:\snowflake_dbt/package-lock.yml
+[0m05:20:21.452052 [debug] [MainThread]: Set downloads directory='C:\Users\HP\AppData\Local\Temp\dbt-downloads-5wy0rm6b'
+[0m05:20:21.456366 [info ] [MainThread]: Installing fivetran/netsuite
+[0m05:20:22.640977 [info ] [MainThread]: Installed from version 1.0.0
+[0m05:20:22.641768 [info ] [MainThread]: Up to date!
+[0m05:20:22.642492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '87ec70de-9daa-4705-8367-6b8e2776d1fc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314A575E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314A575480>]}
+[0m05:20:22.642995 [info ] [MainThread]: Installing fivetran/fivetran_utils
+[0m05:20:23.486943 [info ] [MainThread]: Installed from version 0.4.10
+[0m05:20:23.487566 [info ] [MainThread]: Up to date!
+[0m05:20:23.488093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '87ec70de-9daa-4705-8367-6b8e2776d1fc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314B7C5050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314B76FC50>]}
+[0m05:20:23.488401 [info ] [MainThread]: Installing dbt-labs/spark_utils
+[0m05:20:24.131294 [info ] [MainThread]: Installed from version 0.3.0
+[0m05:20:24.132020 [info ] [MainThread]: Up to date!
+[0m05:20:24.132500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '87ec70de-9daa-4705-8367-6b8e2776d1fc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314B7733F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314B773930>]}
+[0m05:20:24.132766 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m05:20:24.945260 [info ] [MainThread]: Installed from version 1.3.1
+[0m05:20:24.945752 [info ] [MainThread]: Up to date!
+[0m05:20:24.946213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '87ec70de-9daa-4705-8367-6b8e2776d1fc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314A39FB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314A39F890>]}
+[0m05:20:24.947833 [debug] [MainThread]: Command `dbt deps` succeeded at 05:20:24.947732 after 7.14 seconds
+[0m05:20:24.948095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314A403C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314B71EAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002314B7FAA30>]}
+[0m05:20:24.948332 [debug] [MainThread]: Flushing usage events
+[0m05:20:26.323395 [debug] [MainThread]: An error was encountered while trying to flush usage events
